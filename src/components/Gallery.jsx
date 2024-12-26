@@ -17,7 +17,7 @@ const Gallery = () => {
             <img
               src={image}
               alt={`Fotoğraf ${index + 1}`}
-              className="w-80 h-96"
+              className="w-80 h-96  hover:scale-105 transition duration-500"
             />
           </div>
         ))}
