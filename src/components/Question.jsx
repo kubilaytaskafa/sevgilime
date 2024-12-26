@@ -3,7 +3,7 @@ const Question = () => {
   const [love, setLove] = useState("Beni seviyor musun?");
   return (
     <div className="flex items-center justify-center mt-4 flex-col gap-4">
-      <h1 className="text-2xl text-center text-pink-600 hover:text-pink-800 cursor-pointer hover:scale-105 transition duration-300 ml-2">
+      <h1 className="text-2xl text-center text-pink-600 hover:text-pink-800 cursor-pointer hover:scale-105 transition duration-300 ml-2 p-4">
         -Aşağı inmeden önce sana ufak bir soru sormak istiyorum.-
       </h1>
 
